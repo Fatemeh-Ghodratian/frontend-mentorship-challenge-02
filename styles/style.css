@@ -1,0 +1,9 @@
+@import "reset.css";
+:root{
+    --lightBlueColor: #3498db;
+    --darkGray: #515151;
+    --lightGray:#f1f1f1;
+    --lightColor: #fff;
+    --darkGreenColor : #16a085;
+
+}
