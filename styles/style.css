@@ -7,3 +7,7 @@
     --darkGreenColor : #16a085;
 
 }
+body{
+    background:  url(../images/login.jpg);
+    background-size: cover;
+}
