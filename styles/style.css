@@ -2,12 +2,79 @@
 :root{
     --lightBlueColor: #3498db;
     --darkGray: #515151;
-    --lightGray:#f1f1f1;
+    --lightGray:#E5EEF3;
     --lightColor: #fff;
     --darkGreenColor : #16a085;
 
 }
 body{
-    background:  url(../images/login.jpg);
+    background:  url(../images/login.jpg) center no-repeat;
     background-size: cover;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: scroll;
+
+}
+.loginBox{
+    background: var(--lightGray);
+    min-width: 22vw;
+    padding:  4rem 3rem;
+    border-radius: 2rem;
+    box-shadow: var(--darkGray) .3rem .3rem .5rem;
+
+}
+.loginBox span{
+    display: flex;
+    flex-direction: column;
+}
+/*start Form style*/
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formLable{
+    margin-bottom: .5rem;
+}
+.formItems{
+    margin-bottom: 2rem;
+}
+.formGroup{
+    padding: .7rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    
+}
+/*gender section*/
+.genderChoices, .acceptTerms{
+    display: flex;
+    flex-direction: row !important; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: flex-start ;
+    gap: 1rem;
+}
+.genderItems{
+    display: flex;
+    flex-direction: row !important; 
+    gap: 1.5rem;
+    background: var(--lightColor);
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    
+}
+/*button*/
+#submitBtn{
+    background: var(--darkGreenColor);
+    margin: 1.5rem 2rem 0 2rem;
+    padding: .7rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    color: var(--lightColor)
+}
+/*end Form style*/
